@@ -1,0 +1,11 @@
+pandas
+numpy
+seaborn
+scikit-learn
+scipy
+matplotlib
+statsmodels
+jupyterlab
+pytest
+pytest-cov
+-e .
