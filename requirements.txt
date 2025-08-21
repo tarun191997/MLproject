@@ -8,4 +8,6 @@ statsmodels
 jupyterlab
 pytest
 pytest-cov
--e .
+catboost
+xgboost
+#-e .
