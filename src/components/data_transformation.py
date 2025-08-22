@@ -46,7 +46,7 @@ class DataTransformation:
                 ('one_hot_encoder', OneHotEncoder()),
                 ('scaler', StandardScaler(with_mean=False))
                 ]
-            )
+             )
 
             logging.info(f'Numerical columns: {numerical_columns}')
             logging.info(f'Categorical columns: {categorical_columns}')
@@ -56,7 +56,7 @@ class DataTransformation:
                     ('num_pipeline', num_pipeline, numerical_columns),
                     ('cat_pipeline', cat_pipeline, categorical_columns)
                 ]
-            )
+             )
 
             return preprocessor
             
