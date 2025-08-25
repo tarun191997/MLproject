@@ -11,4 +11,5 @@ pytest-cov
 catboost
 xgboost
 dill
+flask
 #-e .
